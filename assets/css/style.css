@@ -146,7 +146,28 @@ a:hover::before {
     line-height: 2;
     flex-basis: 2;
     font-size: 14pt;
+}
 
+/* Contact Me Section */
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ .contact-me h3 {
+    color: #010101;
+    text-align: center;
+}
+
+ .contact-me p {
+    margin-bottom: 10px;
 }
 
 @media (max-width: 600px) {
