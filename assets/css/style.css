@@ -10,8 +10,8 @@
 }
 
 body {
-  font-family: "termina", sans-serif;
-  font-weight: 400;
+  font-family: 'Termina', Arial, Helvetica, sans-serif;
+  font-weight: 500;
   font-style: normal;
   margin:0;
 }
@@ -145,6 +145,8 @@ a:hover::before {
     background-color: #ADDFE3;
     line-height: 2;
     flex-basis: 2;
+    font-size: 14pt;
+
 }
 
 @media (max-width: 600px) {
