@@ -144,7 +144,7 @@ a:hover::before {
     padding-right: 70px;
     background-color: #ADDFE3;
     line-height: 2;
-    flex-basis: 3;
+    flex-basis: 2;
 }
 
 @media (max-width: 600px) {
