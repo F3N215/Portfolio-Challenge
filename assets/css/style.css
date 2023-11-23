@@ -55,7 +55,7 @@ a:hover::before {
     padding:5px 10px 0px 5px;
     border: solid;
     border-style: double;
-  }
+}
 
 .container {
     display:flex;
@@ -67,15 +67,14 @@ a:hover::before {
   #navbar li{
     display:inline-block;
     position: sticky;
-  }
+}
   
   #navbar a{
     text-decoration:none;
     font-size:18px;
     padding-right:15px;
     position: sticky;
-  }
-
+}
 
 .header h1 {
     display: inline-block;
@@ -100,6 +99,8 @@ a:hover::before {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* My Work */
 
 .flex-container {
     display: flex;
@@ -169,6 +170,22 @@ a:hover::before {
  .contact-me p {
     margin-bottom: 10px;
 }
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+  
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 
 @media (max-width: 600px) {
     nav {
