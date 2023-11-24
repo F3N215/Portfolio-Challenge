@@ -159,7 +159,7 @@ a:hover::before {
     align-items: center;
     width: 100%; 
     max-width: 600px; 
-    margin: 0 auto; 
+    margin: 30px auto; 
     padding: 20px;
     border: 3px solid #000000;
     box-shadow: 10px 10px;
@@ -177,22 +177,21 @@ a:hover::before {
 
 /* Footer */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #000000;
+    color: white; 
     text-align: center;
     padding: 20px;
-    position: relative;
 }
   
 
-.footer-content {
+.footer {
     max-width: 1200px;
     margin: 0 auto;
 }
 
 
 @media screen and and (min-width: 500px) and (max-width: 1024px) {
-.navbar, .footer-content {
+.navbar, .footer {
     flex-direction: column;
 }
 
